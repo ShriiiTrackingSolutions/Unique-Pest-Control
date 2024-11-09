@@ -1,0 +1,165 @@
+
+@media only screen and (min-width: 1920px) {}
+
+@media (max-width: 1399.98px) {
+    
+    
+ }
+
+@media only screen and (min-width: 1600px) and (max-width: 1900px) {}
+
+@media only screen and (min-width: 1200px) and (max-width: 1280px) {
+ 
+}
+
+
+
+@media (max-width: 1199.98px) { 
+
+.display-3 {
+  font-size: 60px;
+}
+.secH {
+  font-size: 36px;
+}
+
+.makingAnImpact .container{
+  position: static;
+  transform: none;
+}
+.buildingTrust .container>.row{
+  row-gap: 10px;
+}
+.buildingTrust .Paramargin {
+  width: 100%;
+}
+.sendUsMessage{
+  background: none;
+}
+
+#ca1.owl-carousel .item1 {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+#ca1.owl-carousel .item2 {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+ }
+
+@media (max-width: 991.98px) { 
+ 
+.copyrightSection .container>.row{
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap-reverse;
+}
+.copyrightSection ul{
+  justify-content: center;
+}
+.whywChooseUs .container>.row{
+  row-gap: 24px;
+}
+
+
+
+ }
+
+ @media screen and (max-width: 912px) {
+ 
+
+
+ }
+
+
+@media (max-width: 767.98px) {
+
+.display-3 {
+  font-size: 32px;
+}
+.secH {
+  font-size: 28px;
+}
+.therdH {
+  font-size: 22px;
+}
+.fourthH {
+  font-size: 18px;
+  font-weight: 600;
+}
+.premiumServices .container>.row{
+  row-gap: 40px;
+}
+.footer.defaultPadding{
+  padding: 34px 0;
+}
+.footer .secH{
+  text-align: center;
+  margin-bottom: 24px;
+}
+.footer .container>.row{
+  justify-content: center;
+}
+.footer .social-icons{
+justify-content: center;
+}
+.footer .exploreLinks ul li{
+text-align: left;
+}
+.testimonialCard .row {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 24px;
+}
+.testimonialCard .userDisc {
+  width: 100%;
+}
+.PageBanner .display-3 {
+  font-size: 46px;
+  line-height: 84px;
+
+}
+
+ }
+
+@media (max-width: 575.98px) {
+  .bestInvisbleGrill  .cardWrap{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .bestInvisbleGrill  .cardWrap .fifthH{
+    text-align: center;
+  }
+  .bestInvisbleGrill  .cardWrap  .textPart2{
+    margin-top: 24px;
+    padding: 0 12px;
+  }
+
+  #ca1.owl-carousel .item {
+    padding: 50px 30px;
+    background-color: red;
+}
+#ca1.owl-carousel .item1 {
+  background: url('../image/GalleryImage1.jpeg') no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+}
+#ca1.owl-carousel .item2 {
+  background: url('../image/WhatsApp-Image-2024-08-06-at-7.03.27-PM.jpg') no-repeat center;
+  background-size: cover;
+}
+.bannertext1 {
+  background-color: #00000f80;
+  border-radius: 25px;
+  padding: 30px !important;
+  color: #ffffff;
+}
+.bannertext1 .display-3 a {
+  color: #ffffff;
+}
+
+ }
+
