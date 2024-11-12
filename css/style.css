@@ -34,111 +34,109 @@
   font-display: swap;
 }
 
-
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
-      url('../fonts/Roboto-Bold.woff') format('woff');
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2"),
+    url("../fonts/Roboto-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Italic.woff2') format('woff2'),
-      url('../fonts/Roboto-Italic.woff') format('woff');
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Italic.woff2") format("woff2"),
+    url("../fonts/Roboto-Italic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
-      url('../fonts/Roboto-Regular.woff') format('woff');
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../fonts/Roboto-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
-      url('../fonts/Roboto-Medium.woff') format('woff');
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Medium.woff2") format("woff2"),
+    url("../fonts/Roboto-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Teko';
-  src: url('../fonts/Teko-Bold.woff2') format('woff2'),
-      url('../fonts/Teko-Bold.woff') format('woff');
+  font-family: "Teko";
+  src: url("../fonts/Teko-Bold.woff2") format("woff2"),
+    url("../fonts/Teko-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-BoldItalic.woff2') format('woff2'),
-      url('../fonts/Roboto-BoldItalic.woff') format('woff');
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-BoldItalic.woff2") format("woff2"),
+    url("../fonts/Roboto-BoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Playfair Display';
-  src: url('../fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
-      url('../fonts/PlayfairDisplay-Bold.woff') format('woff');
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Bold.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Playfair Display';
-  src: url('../fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
-      url('../fonts/PlayfairDisplay-Regular.woff') format('woff');
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Regular.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Playfair Display';
-  src: url('../fonts/PlayfairDisplay-BoldItalic.woff2') format('woff2'),
-      url('../fonts/PlayfairDisplay-BoldItalic.woff') format('woff');
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-BoldItalic.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-BoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
 
-
 @font-face {
-  font-family: 'Teko';
-  src: url('../fonts/Teko-Regular.woff2') format('woff2'),
-      url('../fonts/Teko-Regular.woff') format('woff');
+  font-family: "Teko";
+  src: url("../fonts/Teko-Regular.woff2") format("woff2"),
+    url("../fonts/Teko-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Teko';
-  src: url('../fonts/Teko-Medium.woff2') format('woff2'),
-      url('../fonts/Teko-Medium.woff') format('woff');
+  font-family: "Teko";
+  src: url("../fonts/Teko-Medium.woff2") format("woff2"),
+    url("../fonts/Teko-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Teko';
-  src: url('../fonts/Teko-SemiBold.woff2') format('woff2'),
-      url('../fonts/Teko-SemiBold.woff') format('woff');
+  font-family: "Teko";
+  src: url("../fonts/Teko-SemiBold.woff2") format("woff2"),
+    url("../fonts/Teko-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -153,13 +151,32 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Semibold.woff2') format('woff2'),
+      url('../fonts/OpenSans-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Bold.woff2') format('woff2'),
+      url('../fonts/OpenSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 :root {
   --Black: #1a1a1a;
-  --fadeBrown:#757575;
+  --fadeBrown: #757575;
   --grey: #666666;
   --green: #91d849;
   --parrotGreen: #2ecc71;
-  --seeGreen:#139fb1;
+  --seeGreen: #139fb1;
   --lightGrey: #f5f5f5;
   --skyblue: #0c71c3;
   --BGrey: #eef1f8;
@@ -183,8 +200,8 @@ img {
   width: 100%;
 }
 
-.bannerFont{
-  font-family: 'Playfair Display';
+.bannerFont {
+  font-family: "Playfair Display";
   font-weight: normal;
   font-style: normal;
   color: var(--Black);
@@ -195,7 +212,7 @@ img {
 
 .display-3 {
   color: var(--skyblue);
-  font-family: 'Teko', Helvetica, Arial, Lucida, sans-serif;
+  font-family: "Teko", Helvetica, Arial, Lucida, sans-serif;
   font-weight: 600;
   font-size: 54px;
   text-align: center;
@@ -204,7 +221,7 @@ img {
 
 .secH {
   color: var(--skyblue);
-  font-family: 'Teko', Helvetica, Arial, Lucida, sans-serif;
+  font-family: "Teko", Helvetica, Arial, Lucida, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -212,7 +229,7 @@ img {
 }
 
 .therdH {
-  font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, Lucida, sans-serif;
   font-size: 25px;
   color: var(--skyblue);
   line-height: 1.4em;
@@ -222,7 +239,7 @@ img {
 
 .fourthH {
   text-align: center;
-  font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, Lucida, sans-serif;
   font-size: 18px;
   font-weight: bold;
   line-height: 28.8px;
@@ -325,7 +342,7 @@ img {
   font-family: "Font Awesome 6 Free";
   border: none;
 }
-.navbar{
+.navbar {
   max-width: 100%;
 }
 .navbar-expand-lg .navbar-nav .dropdown-menu {
@@ -364,7 +381,7 @@ img {
   opacity: 0.7;
 }
 .bg-light {
-  background-color:#ffffff !important;
+  background-color: #ffffff !important;
 }
 
 .navbar-nav {
@@ -396,7 +413,7 @@ img {
   border-radius: 3px 3px 3px 3px;
   overflow: hidden;
   border-style: solid;
-  border-width: 10px ;
+  border-width: 10px;
   border-color: #cdecb1;
 }
 
@@ -430,11 +447,11 @@ img {
 }
 .Banner .owl-carousel .owl-nav button.owl-prev {
   font-size: 55px;
-  transition:  background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 .Banner .owl-carousel .owl-nav button.owl-next {
   font-size: 55px;
-  transition:  background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 .Banner .owl-carousel .owl-nav button.owl-next:hover {
   background-color: var(--seeGreen) !important;
@@ -444,13 +461,13 @@ img {
   background-color: var(--seeGreen) !important;
   color: white !important;
 }
-.Banner .owl-nav .owl-prev span{
+.Banner .owl-nav .owl-prev span {
   transform: translateY(-7px);
-  transition:  color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
 }
 .Banner .owl-nav .owl-next span {
   transform: translateY(-7px);
-  transition:  color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
 }
 
 .container-fluid {
@@ -491,13 +508,11 @@ img {
 }
 
 #ca1.owl-carousel .item1 {
-  background: url("../image/BannerImg.jpeg")
-    no-repeat top;
+  background: url("../image/BannerImg.jpeg") no-repeat top;
   background-size: cover;
 }
 #ca1.owl-carousel .item2 {
-  background: url("../image/BannerImg2.jpeg")
-    no-repeat center;
+  background: url("../image/BannerImg2.jpeg") no-repeat center;
   background-size: cover;
 }
 .bannerCard {
@@ -515,14 +530,12 @@ img {
   margin-bottom: 0;
   text-align: center;
 }
-.bannertext1 .bannerFont{
+.bannertext1 .bannerFont {
   color: var(--Black);
 }
 
-
-
 .btnOutline {
-  font-family: 'Roboto', 'Arial';
+  font-family: "Roboto", "Arial";
   color: #ffffff;
   display: inline-block;
   padding: 10px 20px;
@@ -552,7 +565,7 @@ img {
   transform: translateX(0px);
   opacity: 1;
 }
-.btnOutline:hover{
+.btnOutline:hover {
   background-color: var(--seeGreen);
 }
 
@@ -561,13 +574,13 @@ img {
   margin-left: unset;
 }
 
-.designerBorder{
+.designerBorder {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
 }
-.designerBorder img{
-width: 74px !important;
+.designerBorder img {
+  width: 74px !important;
 }
 
 /* banner css end */
@@ -582,38 +595,38 @@ width: 74px !important;
   align-items: center;
   border: 2px solid transparent;
 }
-.Servicecards img{
+.Servicecards img {
   width: 45%;
   margin-bottom: 30px;
 }
-.Servicecards .therdH{
+.Servicecards .therdH {
   font-size: 16px;
 }
 
 .absoluteLink {
-position: absolute;
-height: 100%;
-width: 100%;
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
-.Servicecards:hover{
+.Servicecards:hover {
   border: 2px solid var(--grey);
 }
-.bestPestControlServices .display-3{
+.bestPestControlServices .display-3 {
   margin-left: auto;
   margin-right: auto;
 }
 
-
 /* Why Choose Us section start */
 
-.whywChooseUs .secH{
+.whywChooseUs .secH {
   text-align: center;
   margin-bottom: 40px;
 }
-.whywChooseUs .container{
+.whywChooseUs .container {
   padding: 0 4.8%;
 }
-.extra,.cardVerticle{
+.extra,
+.cardVerticle {
   height: 100%;
 }
 .whywChooseUs .squareImg {
@@ -621,7 +634,7 @@ width: 100%;
   width: 60px;
   border-radius: 0;
   border: none;
-  margin: auto ;
+  margin: auto;
   margin-bottom: 30px;
 }
 .whywChooseUs .cardVerticle {
@@ -634,15 +647,14 @@ width: 100%;
 .whywChooseUs .cardVerticle:hover {
   border: 2px solid var(--skyblue);
 }
-.whywChooseUs  .cardVerticle p{
-font-weight: 600;
-color: var(--grey);
+.whywChooseUs .cardVerticle p {
+  font-weight: 600;
+  color: var(--grey);
 }
 /* Why Choose Us section end */
 
-
 /* Get in Touch section start */
-.pestControlImg{
+.pestControlImg {
   padding-right: 0;
   border-radius: 10px 800px 800px 10px;
   overflow: hidden;
@@ -660,36 +672,35 @@ color: var(--grey);
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.17);
 }
 
-.pestControlServices .btnOutline:hover{
+.pestControlServices .btnOutline:hover {
   background-color: var(--green);
 }
 /* Pest Control Services section end */
 
-
 /* Our Testimonials section start */
-.ourTestimonials .secH{
+.ourTestimonials .secH {
   text-align: center;
 }
-.ourTestimonials .owl-carousel{
+.ourTestimonials .owl-carousel {
   max-width: 1080px;
   margin: auto;
   box-shadow: 0px 30px 100px -40px rgba(0, 0, 0, 0.3);
   overflow-x: hidden;
 }
 
-.ourTestimonials .animated  {
-  -webkit-animation-duration : 1000ms  ;
-  animation-duration : 1000ms  ;
-} 
+.ourTestimonials .animated {
+  -webkit-animation-duration: 1000ms;
+  animation-duration: 1000ms;
+}
 .ourTestimonials .animate__slideInUp {
-animation: slideInUp 1500ms 900ms ease both;
+  animation: slideInUp 1500ms 900ms ease both;
 }
 @keyframes slideInUp {
-  0%{
+  0% {
     opacity: 0;
     transform: translateY(50px);
   }
-  100%{
+  100% {
     opacity: 1;
     transform: translateY(0px);
   }
@@ -702,14 +713,14 @@ animation: slideInUp 1500ms 900ms ease both;
   padding-bottom: 100px;
 }
 
-.testimonialCard .fifthH{
+.testimonialCard .fifthH {
   color: var(--Black);
   font-weight: 600;
   margin-top: 10px;
 }
 
-.testimonialCard .therdH{
-  font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif;
+.testimonialCard .therdH {
+  font-family: "Roboto", Helvetica, Arial, Lucida, sans-serif;
   font-weight: normal;
   font-style: italic;
   font-size: 24px !important;
@@ -718,7 +729,7 @@ animation: slideInUp 1500ms 900ms ease both;
   text-shadow: 0em 0.1em 0.1em rgba(0, 0, 0, 0);
 }
 
-.ourTestimonials  .owl-nav {
+.ourTestimonials .owl-nav {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -730,7 +741,7 @@ animation: slideInUp 1500ms 900ms ease both;
   padding-right: 20px;
   pointer-events: none;
 }
-.ourTestimonials  .owl-nav button {
+.ourTestimonials .owl-nav button {
   pointer-events: initial;
   height: 50px;
   width: 50px;
@@ -742,41 +753,41 @@ animation: slideInUp 1500ms 900ms ease both;
   line-height: 1.25;
   color: #2edcb1 !important;
 }
-.ourTestimonials  .owl-carousel .owl-nav button.owl-prev {
+.ourTestimonials .owl-carousel .owl-nav button.owl-prev {
   font-size: 55px;
   transform: translateX(-70px);
-  transition:  transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
-.ourTestimonials  .owl-carousel .owl-nav button.owl-next {
+.ourTestimonials .owl-carousel .owl-nav button.owl-next {
   font-size: 55px;
   transform: translateX(70px);
-  transition:  transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
-.ourTestimonials  .owl-carousel:hover .owl-nav button.owl-next {
-   transform: translateX(0px);
+.ourTestimonials .owl-carousel:hover .owl-nav button.owl-next {
+  transform: translateX(0px);
 }
-.ourTestimonials  .owl-carousel:hover .owl-nav button.owl-prev {
-   transform: translateX(0px);
+.ourTestimonials .owl-carousel:hover .owl-nav button.owl-prev {
+  transform: translateX(0px);
 }
-.ourTestimonials  .owl-nav .owl-prev span{
+.ourTestimonials .owl-nav .owl-prev span {
   transform: translateY(-7px);
 }
-.ourTestimonials  .owl-nav .owl-next span {
+.ourTestimonials .owl-nav .owl-next span {
   transform: translateY(-7px);
 }
-.ourTestimonials  .owl-dots {
+.ourTestimonials .owl-dots {
   text-align: center;
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
-.ourTestimonials  .owl-dots {
+.ourTestimonials .owl-dots {
   position: absolute;
   bottom: 30px;
   width: 100%;
 }
-.ourTestimonials  .owl-dots button.owl-dot {
+.ourTestimonials .owl-dots button.owl-dot {
   width: 7px;
   height: 7px;
   border-radius: 50%;
@@ -785,31 +796,29 @@ animation: slideInUp 1500ms 900ms ease both;
   background: #2edcb194;
   margin: 4px 0px;
 }
-.ourTestimonials  .owl-dots button.owl-dot.active {
+.ourTestimonials .owl-dots button.owl-dot.active {
   background-color: #2edcb1;
 }
-.ourTestimonials  .owl-dots button.owl-dot:focus {
+.ourTestimonials .owl-dots button.owl-dot:focus {
   outline: none;
 }
-.ourTestimonials .hrBorder{
+.ourTestimonials .hrBorder {
   margin-left: auto;
   margin-right: auto;
   max-width: 1080px;
 }
 
-.hrBorder{
+.hrBorder {
   margin-top: 40px;
-  border-bottom: 1px solid #7EBEC5;
+  border-bottom: 1px solid #7ebec5;
   margin-bottom: 20px;
 }
 /* Our Testimonials section end */
 
-
-
 /* Footer section start  */
 
 .footer {
-  background-color: rgba(0,0,0,0.71);
+  background-color: rgba(0, 0, 0, 0.71);
   color: white;
 }
 .footer.defaultPadding {
@@ -822,7 +831,7 @@ animation: slideInUp 1500ms 900ms ease both;
   margin-bottom: 30px;
 }
 .footer .secH {
-  font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
   font-size: 35px;
   color: #6eba01 !important;
   margin-bottom: 35px;
@@ -844,7 +853,7 @@ animation: slideInUp 1500ms 900ms ease both;
 .footer ul li {
   margin-bottom: 5px;
 }
-.footer ul li:last-child{
+.footer ul li:last-child {
   margin-bottom: 0;
 }
 .footer ul li a {
@@ -907,6 +916,218 @@ animation: slideInUp 1500ms 900ms ease both;
 
 .copyrightSection p {
   margin-bottom: 0;
-  color: #203600  ;
+  color: #203600;
 }
 
+/****************
+***About Page****
+*****************/
+
+.PageBanner {
+  padding: 80px 0;
+  position: relative;
+  background: linear-gradient(#aed88685, #aed88685),
+    url("../image/asset\ 16.png");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: cover, cover, cover;
+  background-position: center;
+  background-blend-mode: difference;
+}
+.PageBanner::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #b7d89782;
+}
+.PageBanner .comtainer-fluid {
+  position: relative;
+  z-index: 2;
+}
+
+.PageBanner .display-3 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 84px;
+  color: #ffffff;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  margin-bottom: 0;
+}
+.PageBanner .therdH {
+  color: #ffffff;
+}
+
+.aboutPage0.getInTouch .display-3 {
+  color: var(--green);
+  text-align: left;
+}
+.aboutPage0.getInTouch p {
+  color: var(--skyblue);
+}
+.btnCircle {
+  margin-top: 24px;
+  padding: 20px 30px;
+  display: inline-block;
+  color: #7cda24;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #7cda24;
+  border-radius: 50px;
+  letter-spacing: 3px;
+  font-size: 14px;
+  font-family: "Sarabun", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.imgWraper {
+  position: relative;
+}
+
+.mainimgWrap {
+  width: 52%;
+  margin-left: auto;
+  margin-right: 17%;
+  z-index: 1;
+  position: relative;
+  border-radius: 100px 0 100px 0;
+  overflow: hidden;
+}
+
+.Leaf1 {
+  position: absolute;
+
+  margin-top: 24%;
+  margin-left: 28%;
+  width: 27%;
+  top: 0px;
+  bottom: auto;
+  left: -16%;
+  right: auto;
+  text-align: left;
+}
+
+.imgpart {
+  padding-bottom: 16%;
+  position: relative;
+}
+
+.mainimgWrap2 {
+  border-radius: 0 100px 0 100px;
+  overflow: hidden;
+  height: 60%;
+  width: 42%;
+  position: absolute;
+  bottom: 4%;
+  top: auto;
+  left: 4%;
+  right: auto;
+  background: url("../image/Untitled-design-9-1.png") no-repeat top;
+  background-size: 100%;
+}
+.Leaf2 {
+  position: absolute;
+  margin-left: 49%;
+  width: 17%;
+  top: unset;
+  bottom: -1%;
+  left: -16%;
+  z-index: 2;
+  right: auto;
+  text-align: left;
+}
+
+
+/* Premium Services section start */
+.Styledpara {
+  max-width: 710px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.countCards .fifthH {
+  font-weight: 500;
+}
+.countCards .display-3 {
+  font-weight: 700;
+  color: var(--perple);
+}
+
+.secH.styledText {
+  position: relative;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.secH.styledText::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 3px;
+  background-color: var(--skyblue);
+}
+
+.premiumServices .secH.styledText {
+  font-weight: 500;
+}
+.premiumServices .display-3{
+  font-family: Open Sans, Arial, sans-serif;
+  font-weight: bold;
+  color: var(--green);
+}
+/* Premium Services section end */
+
+
+/* Best Pest Control Services section start */
+.bestPestControl {
+  padding: 120px 0;
+  background-image: url('../image/person-white-chemical-protection-suit-doing-disinfection-pest-control-spraying-poison-kill-insects-rodents-scaled.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bestPestControl .display-3{
+  text-align: left;
+  color: var(--green);
+  margin-bottom: 60px;
+}
+.bestPestControl .fourthH{
+  font-family: 'Cormorant', Georgia, "Times New Roman", serif;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.4em;
+  margin-bottom: 12px;
+}
+
+.bestPestControl ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.bestPestControl ul li{
+padding-bottom: 30px;
+color: #ffffff;
+position: relative;
+padding-left: 50px;
+border-color: #bcb4a8;
+border-bottom: 1px solid;
+margin-bottom: 30px;
+}
+.bestPestControl ul li::before{
+  content: "\f00c";
+  font-weight: 900;
+  font-size: 24px;
+  font-family: "Font Awesome 6 Free";
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Best Pest Control Services section end */
