@@ -100,7 +100,9 @@
 }
 .footer .container>.row{
   justify-content: center;
+  row-gap: 40px;
 }
+
 .footer .social-icons{
 justify-content: center;
 }
@@ -151,6 +153,26 @@ text-align: left;
 .display-3{
   font-size: 22px;
 }
+.footer-brand{
+  display: table !important;
+  margin: auto;
+}
+.footer {
+  text-align:center;
+}
+.footer .locationLink{
+  max-width: 200px;
+}
+.footer ul {
+  max-width: 218px;
+  margin: auto;
+}
 
- }
+.pestControlServices .col-lg-4{
+  padding-right: 12px;
+  padding-left: 12px;
+}
+}
+
+ 
 
