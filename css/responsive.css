@@ -143,7 +143,25 @@
   position: relative;
   z-index: -2;
 }
-
+.Banner .owl-nav{
+  display: none;
+}
+.bannertext1 .bannerFont {
+ font-size: 22px;
+}
+.btnOutline{
+  font-size: 12px;
+}
+.bannertext1 p {
+ font-size: 12px;
+}
+.bannertext1 {
+  padding: 25px 20px !important;
+}
+#ca1.owl-carousel .item1 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
 .ServicesBanner .conPos{
   position: static;
   margin-bottom: 50px;
@@ -156,7 +174,7 @@
   padding: 50px 0;
 }
 .ServicesBanner .skewDesign {
-  background-color: #8fd84b;
+  background-color: #8fd84ba8;
   mix-blend-mode: multiply;
   backface-visibility: hidden;
   height: 100%;
@@ -218,6 +236,9 @@
 .premiumServices .container>.row{
   row-gap: 40px;
 }
+.premiumServices .display-3 {
+font-size: 48px;
+}
 .footer.defaultPadding{
   padding: 34px 0;
 }
@@ -245,10 +266,16 @@ text-align: left;
 .testimonialCard .userDisc {
   width: 100%;
 }
+.testimonialCard .therdH {
+  font-family: "Roboto", Helvetica, Arial, Lucida, sans-serif;
+  font-size: 14px !important;
+  line-height: 1.7em;
+}
 .PageBanner .display-3 {
   font-size: 46px;
   line-height: 84px;
 }
+
 
 .getInTouch.aboutPage0{
   text-align: center;
@@ -260,6 +287,17 @@ text-align: left;
 .bestPestControl .display-3 {
   text-align: center;
 }
+.Servicecards:not(.servicePage0 .Servicecards ):hover {
+  border: 2px solid var(--skyblue);
+}
+.Servicecards:not(.servicePage0 .Servicecards ){
+border-color: var(--skyblue);
+border-style: solid;
+border-radius: 50px 50px 50px 50px;
+overflow: hidden;
+border-width: 2px;
+}
+
 
  }
 
@@ -281,12 +319,10 @@ text-align: left;
     padding: 50px 30px;
     background-color: red;
 }
-
-
-.bannertext1 {
-  padding: 30px !important;
+.bestPestControlServices .container>.row{
+padding-left: 24px;
+padding-right: 24px;
 }
-
 .display-3{
   font-size: 22px;
 }
