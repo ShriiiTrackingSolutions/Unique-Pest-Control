@@ -310,10 +310,14 @@ text-align: left;
   padding-left: 12px;
 }
 
-
 .BanneLink {
   font-size: 32px;
   color: var(--green );
+}
+
+.navbar-brand {
+  margin-right: 45px;
+  width: 13rem;
 }
 }
 
