@@ -62,14 +62,11 @@
   background: none;
 }
 
-#ca1.owl-carousel .item1 {
+.Banner .item1 {
   padding-left: 70px;
   padding-right: 70px;
 }
-#ca1.owl-carousel .item2 {
-  padding-left: 70px;
-  padding-right: 70px;
-}
+
 
 .ServicesBanner .conPos{
   position: absolute;
@@ -158,7 +155,8 @@
 .bannertext1 {
   padding: 25px 20px !important;
 }
-#ca1.owl-carousel .item1 {
+
+.Banner .item1 {
   padding-left: 40px;
   padding-right: 40px;
 }
@@ -315,9 +313,8 @@ border-width: 2px;
     padding: 0 12px;
   }
 
-  #ca1.owl-carousel .item {
+.Banner .item {
     padding: 50px 30px;
-    background-color: red;
 }
 .bestPestControlServices .container>.row{
 padding-left: 24px;

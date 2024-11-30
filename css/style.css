@@ -404,10 +404,8 @@ img {
 
 /* banner css start */
 
-#ca1.owl-carousel {
-  overflow-x: hidden;
-}
-#ca1.owl-carousel .item {
+
+.Banner .item {
   padding: 130px 70px;
   border-radius: 3px 3px 3px 3px;
   overflow: hidden;
@@ -416,104 +414,19 @@ img {
   border-color: #cdecb1;
 }
 
-.Banner .owl-nav {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
-  pointer-events: none;
-}
-.Banner .owl-nav button {
-  pointer-events: initial;
-  height: 50px;
-  width: 50px;
-  background-color: #ffffff !important;
-  opacity: 1;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.17);
-  border: 0px solid rgba(0, 0, 0, 1);
-  border-radius: 99px;
-  line-height: 1.25;
-  color: var(--seeGreen) !important;
-}
-.Banner .owl-carousel .owl-nav button.owl-prev {
-  font-size: 55px;
-  transition: background-color 0.3s ease-in-out;
-}
-.Banner .owl-carousel .owl-nav button.owl-next {
-  font-size: 55px;
-  transition: background-color 0.3s ease-in-out;
-}
-.Banner .owl-carousel .owl-nav button.owl-next:hover {
-  background-color: var(--seeGreen) !important;
-  color: white !important;
-}
-.Banner .owl-carousel .owl-nav button.owl-prev:hover {
-  background-color: var(--seeGreen) !important;
-  color: white !important;
-}
-.Banner .owl-nav .owl-prev span {
-  transform: translateY(-7px);
-  transition: color 0.3s ease-in-out;
-}
-.Banner .owl-nav .owl-next span {
-  transform: translateY(-7px);
-  transition: color 0.3s ease-in-out;
-}
+
 
 .container-fluid {
   max-width: 1780px;
 }
 
-.Banner .owl-dots {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  box-shadow: 0px 0px 10px 0px RGBA(0, 0, 0, 0.16);
-}
 
-.Banner .owl-dots {
-  position: absolute;
-  bottom: 30px;
-  padding: 5px 10px;
-  border-radius: 50px;
-  background-color: #ffffff;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.Banner .owl-dots button.owl-dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  border: none;
-  display: inline-block;
-  background: var(--grey);
-  margin: 4px 0px;
-}
-.Banner .owl-dots button.owl-dot.active {
-  background-color: var(--seeGreen);
-}
-.Banner .owl-dots button.owl-dot:focus {
-  outline: none;
-}
 
-#ca1.owl-carousel .item1 {
+.Banner .item1 {
   background: url("../image/BannerImg.jpeg") no-repeat top;
   background-size: cover;
 }
-#ca1.owl-carousel .item2 {
-  background: url("../image/BannerImg2.jpeg") no-repeat center;
-  background-size: cover;
-}
+
 .bannerCard {
   margin-left: auto;
 }
@@ -523,6 +436,7 @@ img {
   padding: 55px 48px !important;
   color: var(--grey);
   max-width: 450px;
+  text-align: center;
 }
 
 .bannertext1 p {
@@ -568,10 +482,6 @@ img {
   background-color: var(--seeGreen);
 }
 
-#ca1.owl-carousel .item2 .bannerCard {
-  margin-right: auto;
-  margin-left: unset;
-}
 
 .designerBorder {
   display: flex;
