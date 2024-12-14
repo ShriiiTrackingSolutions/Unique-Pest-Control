@@ -724,6 +724,25 @@ img {
 }
 /* Our Testimonials section end */
 
+
+/* whatsapp fab */
+.fab-container {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.Call-fab-container{
+  position: fixed;
+  bottom: 94px;
+  right: 24px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+
 /* Footer section start  */
 
 .footer {
@@ -1109,6 +1128,12 @@ img {
   z-index: -2;
 }
 
+.newSection .secH{
+  text-transform: capitalize;
+color: var(--Black);
+}
+
+
 .ServicesBanner .skewDesign {
   background-color: #8fd84b;
   mix-blend-mode: multiply;
@@ -1218,6 +1243,7 @@ img {
   padding-bottom: 20px;
   color: #000000;
 }
+
 .newStyle.secH::after {
   content: "";
   width: 60px;
