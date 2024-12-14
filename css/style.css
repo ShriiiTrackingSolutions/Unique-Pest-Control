@@ -1128,6 +1128,11 @@ img {
   z-index: -2;
 }
 
+.newSection {
+background-color: #2ecc702d;
+box-shadow: 0px 23px 70px -20px rgba(0, 0, 0, 0.12);
+}
+
 .newSection .secH{
   text-transform: capitalize;
 color: var(--Black);
