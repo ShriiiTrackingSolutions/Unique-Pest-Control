@@ -847,6 +847,14 @@ img {
   color: #203600;
 }
 
+.copyrightSection a{
+  font-weight: 600;
+  color: #442a81;
+}
+.copyrightSection a:hover{
+  color: var(--Black);
+}
+
 /****************
 ***About Page****
 *****************/
