@@ -602,19 +602,28 @@
     <script src="js/owl.carousel.js"></script>
     <script src="js/script.js"></script>
     <script>
-      //  Header script
-
-      window.addEventListener("scroll", function () {
+      // Debounce function to limit how often the event handler executes
+      function debounce(func, delay) {
+        let timeout;
+        return function (...args) {
+          clearTimeout(timeout);
+          timeout = setTimeout(() => func.apply(this, args), delay);
+        };
+      }
+    
+      // Header scroll handler
+      function handleScroll() {
         const header = document.getElementById("main-header");
         const headerOffset = header.offsetTop;
         const headerHeight = header.offsetHeight;
         const belowContent = document.getElementById("headBelowContent");
         const belowContentOffset = belowContent.offsetTop;
         const belowContentHeight = belowContent.offsetHeight;
-
+    
         if (window.pageYOffset > headerOffset + headerHeight + 5) {
           header.classList.add("sticky-header", "visible");
           header.classList.remove("headerAnimate");
+    
           if (window.matchMedia("(max-device-width:991.98px)").matches) {
             document
               .getElementById("navbarSupportedContent")
@@ -638,8 +647,12 @@
             header.classList.add("headerAnimate");
           }
         }
-      });
+      }
+    
+      // Attach debounced scroll event
+      window.addEventListener("scroll", debounce(handleScroll, 100));
     </script>
+    
 
     <script>
 
